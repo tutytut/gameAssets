@@ -1,0 +1,118 @@
+@font-face {
+    font-family: "P22 Daddy O Hip";
+    src: url(../Fonts/p22daddyohip.ttf);
+
+    font-family: "CooperBlackOut";
+    src: url("../Fonts/cooperbeckerblackoutlcond.ttf");
+
+    font-family: "CooperBlack";
+    src: url("../Fonts/CooperBlackRegular.ttf");
+}
+body{
+
+    height: 100%;
+    margin: 50px 50px;
+    background: url("../images/background.jpg");
+    background-repeat: repeat;
+    font-family:CooperBlack;
+    color: darkgreen;
+    text-align: center;
+
+}
+
+footer {
+
+    margin-left: -50px;
+    margin-right: -50px;
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: -50px;
+    background-color: seagreen;
+    background: rgba(255, 222, 19, 0.6);
+
+
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+img.scale{
+    border: solid darkgreen;
+    transition: transform .5s ease-in-out;
+}
+
+img.scale:hover {
+    transition: transform .5s ease-in-out;
+    transform: scale(1.5);
+    border: solid darkgreen;
+    box-shadow: 10px 10px 5px darkolivegreen;
+}
+
+h2 {
+    font-family: "P22 Daddy O Hip";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h3{
+    margin: 0;
+    color: yellow;
+}
+
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ol {
+    text-align: justify;
+    margin-left: 35%;
+}
+
+#left {
+    width:100px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+#right {
+    width:100px;
+    float: right;
+    margin-top: 5%;
+    margin-right: 25%;
+}
+
+#menu {
+    width:100px;
+}
+
+
+@media screen and (max-width: 750px){
+    ol {
+        margin-left: auto;
+    }
+
+    #left {
+        margin-left: 1%;
+        width: 75px;
+
+    }
+    #right {
+        margin-right: 1%;
+        width: 75px;
+    }
+    #menu {
+        width: 65px;
+    }
+    img.scale:hover {
+        transition: transform .5s ease-in-out;
+        transform: scale(2.0);
+        border: solid darkgreen;
+        box-shadow: 10px 10px 5px darkolivegreen;
+    }
+}
