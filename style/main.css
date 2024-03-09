@@ -1,0 +1,52 @@
+@font-face {
+    font-family: "P22 Daddy O Hip";
+    src: url(../Fonts/p22daddyohip.ttf);
+
+    font-family: "CooperBlackOut";
+    src: url("../Fonts/cooperbeckerblackoutlcond.ttf");
+
+    font-family: "CooperBlack";
+    src: url("../Fonts/CooperBlackRegular.ttf");
+}
+
+body {
+    margin: 0;
+    font-family:CooperBlack;
+    font-size: 17px;
+
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: yellow;
+    width: 100%;
+    padding: 30px;
+
+}
+.content h1 {
+    margin-right: 15%;
+}
+
+.content p {
+    margin-right: 25%;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+
+#surf:hover{
+    transform: scale(1.2);
+}
